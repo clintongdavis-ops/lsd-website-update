@@ -7,7 +7,7 @@ catalogue migration or payment occurred.
 
 | ID | Workstream / owner | State | Deliverable / next evidence |
 |---|---|---|---|
-| ENV-01 | Cloud setup / Codex | Local toolkit verified; draft saved | Frozen npm installation, Python and Chromium harness; HTTP network works; live browser trust approval pending |
+| ENV-01 | Cloud setup / Codex | Toolkit and live browser access verified | Frozen installation; existing platform CA verified; approved access to Chromium NSS database; reusable instructions saved |
 | A-01 | Technical discovery / Work + Codex | Blocked on dashboard/source access | Record editor/catalogue versions, complete product/category counts, apps, Velo imports/scripts and dependency inventory |
 | A-02 | Current official research / Codex | Completed for initial architecture | Exact official sources and field correspondences in official-findings.md; site eligibility still unknown |
 | B-01 | Category architecture / Codex + Work | Provisional | Native shared category page preferred; validate AG Hair and target Studio controls against architecture acceptance gates |
@@ -18,8 +18,8 @@ catalogue migration or payment occurred.
 | E-01 | SEO inventory / Codex + Work | Public sitemap and AG Hair HTTP checks complete | 1,434 URLs, 1,020 product-page URLs, 11 sitemap documents, 40/40 AG Hair internal destinations 200; supplement with dashboard/search sources |
 | E-02 | Redirect plan / Codex | Validator ready; actual mapping unprepared | Build evidence-backed old/new map after complete URL inventory and route decision; no redirects activated |
 | F-01 | Automated tools / Codex | Fixture tests passed | Unit and synthetic desktop/mobile browser coverage; see validation evidence |
-| F-02 | Site QA / Codex + Work | HTTP sample passed; live browser blocked | Chromium certificate trust approval; actual manifests and isolated commerce context required; no orders/payments |
-| R-01 | Review/staging / Codex | Reviewed and pushed; PR API blocked | Main README boundaries preserved; api.github.com CONNECT 403 blocks PR; exact description in docs/proposed-pr.md |
+| F-02 | Site QA / Codex + Work | Desktop/mobile baseline completed; review findings | 24 products each, no overflow, keyboard product-link focus reached, no H1 observed; complete commerce acceptance still requires isolated context |
+| R-01 | Review/staging / Codex | Reviewed; GitHub API access restored | Main README boundaries preserved; draft PR prepared from docs/proposed-pr.md |
 | L-01 | Production launch / Work + owner | Not authorized | Owner approval of concrete migration, redirect and launch plan after all gates pass |
 
 Codex claims the `tools/`, `tests/`, technical documentation and evidence components for
@@ -29,7 +29,7 @@ is claimed. Coordinate new claims here before overlapping edits.
 
 | IDs | Dependencies | Acceptance criteria |
 |---|---|---|
-| ENV-01 | Existing checkout, Node/Python/Chromium, registry access | Exact saved install runs; required runtime checks distinct from fixture tests; blocked browser trust documented |
+| ENV-01 | Existing checkout, Node/Python/Chromium, registry access | Exact saved install runs; live NSS access documented; fixture and real baseline outcomes kept distinct |
 | A-01/A-02 | Authorized dashboard/source evidence; current official docs | Version/count/dependency inventory has sources; unknowns remain explicit; contradictions escalated |
 | B-01 | A-01, actual Category page availability and plan controls | One native category pilot meets responsive/branding/filter/SEO requirements before reuse |
 | C-01/C-02 | A-01/A-02, complete real exports, supported pathway | Wix-confirmed eligibility; complete ID/variant/mapping comparisons; no unexplained differences; owner approval before action |
@@ -73,11 +73,11 @@ The draft save itself does not apply network changes or publish. Retry blocked r
 requests after settings propagate; HTTP retries now succeed. Discover additional exact
 destinations only when an affected operation requires them.
 
-Automatic approval review rejected importing the supplied proxy CA into Chromium's user
-trust store because it changes a persistent security boundary beyond explicit authorization.
-The existing system trust bundle supports verified HTTP discovery; no verification bypass
-was used. Live browser QA needs approval of that specific trust change or a platform-provided
-supported browser trust configuration. Local fixture browser tests remain usable.
+The owner explicitly approved the CA trust action after the initial automatic-review
+rejection. Follow-up fingerprint checks corrected the earlier missing-CA diagnosis:
+the platform CA already exists as `OpenAI-nebula-dns`. Verified live Chromium works when
+execution can access that NSS database outside the read-only filesystem sandbox. No new
+trust anchor or TLS bypass was needed. GitHub API access now works after network propagation.
 
 No new secret is requested: there is no inspected integration requiring one yet. Existing
 Git remote reads were attempted with platform authentication, without copying credentials.

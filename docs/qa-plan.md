@@ -3,7 +3,9 @@
 Current automated results validate tools and synthetic browser fixtures. Public HTTP
 discovery succeeded: 1,434 sitemap URLs and all 40 server-HTML internal AG Hair links
 returned HTTP 200. This is not catalogue completeness or full site QA. Live browser QA
-is blocked by Chromium proxy-certificate trust; authenticated site/source access is absent.
+now completes for desktop and emulated Pixel 7 with authorized NSS database access and
+TLS checks enabled. Both profiles have no H1 observed; helper exit 1 requires review.
+Authenticated site/source access is still absent.
 
 ## URL inventory and mapping
 
@@ -39,7 +41,7 @@ not simply their presence. Fetch linked destinations before claiming broken-link
 |---|---|---|---|
 | Tool integrity | Unit tests: incomplete sitemap/errors, ID loss, orphan parent, SKU/price/media/membership drift, redirect loops | Synthetic fixtures with failure assertions | Implemented |
 | Browser harness | Desktop 1440×900 and mobile 390×844 metadata, category content, product hrefs, overflow, keyboard focus | Synthetic HTML intercepted in Chromium | Implemented |
-| Real desktop/mobile | Same assertions with manifest derived from actual page | Inspect selectors, expected counts/content, capture viewport/screenshots | Unrun |
+| Real desktop/mobile | Native-hook observations with proper desktop/mobile UA, geometry, focus and screenshots | Fresh unauthenticated contexts; non-GET/HEAD HTTP, WebSockets and service workers blocked | Two profiles completed; 24 items each, no horizontal overflow, product-link focus reached; no H1 observed; full acceptance unrun |
 | Navigation/category links | All discovered links reach expected page/language, no broken targets | Complete crawl sources, bounded GETs and final URL/status reports | HTTP link checker implemented; AG Hair 40/40 destinations 200; content identity/site-wide coverage unrun |
 | Variants | All valid combinations map to exact IDs, SKU, media, price and stock rules | Verified isolated test site/data and source baseline | Unrun |
 | Pricing/inventory | Compare complete baseline and after snapshots, reconcile sales | Exports, extraction timestamps, explicit delta ledger | Comparator implemented; real exports unavailable |

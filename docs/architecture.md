@@ -31,7 +31,9 @@ create a second catalogue in CMS. Category-grid variant purchase is optional unl
 the owner identifies it as a requirement; native product-page selection is the default.
 
 AG Hair is the supplied design reference. HTTP inspection confirms 24 rendered product
-items, filters and cart controls; live browser QA is blocked by Chromium certificate trust.
+items, filters and cart controls. Desktop/mobile browser baselines now complete with verified
+HTTPS and authorized NSS access. Both display 24 product items and expose no H1; this is an
+observed baseline issue for the native category pilot, not full SEO/accessibility validation.
 Work should
 identify its actual page type, content/widgets, responsive settings, manually curated
 elements, category binding and page code. Reproduce category imagery, brand description

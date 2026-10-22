@@ -54,10 +54,19 @@ LSD_QA_MANIFEST=/absolute/path/to/manifest.json npm run test:browser
 
 The browser blocks non-GET/HEAD requests. Wix may need POST queries to render; diagnose
 any resulting failure rather than claiming the site is broken or enabling writes broadly.
-Live Chromium currently fails platform-proxy certificate trust. Adding the platform CA to
-its persistent user trust store was rejected by automatic approval review; explicit owner
-approval is pending. TLS verification remains enabled. HTTP discovery works with the
-platform-provided trusted system bundle; synthetic Chromium tests work without networking.
+The owner approved the platform CA trust work. Fingerprint verification found that CA
+already trusted under `OpenAI-nebula-dns`; Chromium needs normal access to its NSS database
+outside the filesystem sandbox. Verified live navigation works with that access and TLS
+checks enabled. No additional CA or certificate-verification bypass is needed.
+
+`npm run inspect:category` records a desktop and Pixel 7 mobile baseline using the inspected
+native product hooks. It blocks non-GET/HEAD HTTP requests, WebSockets and service workers,
+uses a fresh unauthenticated context, and never activates cart/checkout. In Codex, use the
+approved `require_escalated` execution when NSS database access is otherwise restricted.
+It writes a current-run report to `artifacts/live-browser-discovery.json` and screenshots
+in a unique run directory. Exit 0 means no configured observations require review, 1 means
+review observations (such as no H1), and 2 means an execution failure. Neither 0 nor 1 proves
+commerce behavior. Missing/blocked requests can affect rendering and must remain reported.
 
 No add-to-cart, checkout, sorting/filter correctness, payment, performance or full accessibility
 validation is claimed by this smoke suite. See the [QA plan](qa-plan.md) for those gates.

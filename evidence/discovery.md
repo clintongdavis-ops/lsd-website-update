@@ -31,10 +31,18 @@ AG Hair returned 200, a self-canonical, title/description and en-ca/x-default al
 All 40 discovered server-HTML internal links returned 200. Content identity and all-site
 broken-link coverage are not established. Initial HTML has 24 rendered product items.
 
-Chromium live navigation failed `ERR_CERT_AUTHORITY_INVALID`. System CA bundle already
-contains the environment proxy CA, but Chromium's user NSS database does not. Automatic
-approval review rejected persistent CA import; no certificate trust was changed and no
-verification bypass was used. Live browser checks remain blocked pending specific approval.
+Chromium initially failed `ERR_CERT_AUTHORITY_INVALID` and automatic review rejected CA
+import. The owner then explicitly approved the trust work. The initial missing-CA diagnosis
+was incorrect: fingerprint comparison proves the existing NSS certificate
+`OpenAI-nebula-dns` matches `environment-proxy-ca.crt` (SHA-256
+`C71B4D1E9D7775C538C688AB10CEA9CE417D7312E89838F9D15FF73256CD7FC3`). Importing
+that duplicate returns success without a second nickname. Live Chromium succeeds when run
+with approved normal access to the NSS database outside the filesystem sandbox. TLS
+verification remains enabled; no new trust anchor or bypass was required.
+
+Chromium's official Linux certificate-store instructions were read at
+https://github.com/chromium/chromium/blob/main/docs/linux/cert_management.md. They document
+the M146 default store change and fallback to the existing `$HOME/.pki/nssdb`.
 
 ## Evidence boundaries
 
