@@ -22,6 +22,23 @@ catalogue migration or payment occurred.
 | R-01 | Review/staging / Codex | Local review and branch | Review fixes tested; feature branch pushed; current main README boundaries preserved during integration |
 | L-01 | Production launch / Work + owner | Not authorized | Owner approval of concrete migration, redirect and launch plan after all gates pass |
 
+Codex claims the `tools/`, `tests/`, technical documentation and evidence components for
+this foundation. Work retains editor/browser configuration, visual layout and launch
+coordination. This register is shared through the repository; no separate Work notification
+is claimed. Coordinate new claims here before overlapping edits.
+
+| IDs | Dependencies | Acceptance criteria |
+|---|---|---|
+| ENV-01 | Existing checkout, Node/Python/Chromium, registry access | Exact saved install runs; required runtime checks distinct from fixture tests; blocked browser trust documented |
+| A-01/A-02 | Authorized dashboard/source evidence; current official docs | Version/count/dependency inventory has sources; unknowns remain explicit; contradictions escalated |
+| B-01 | A-01, actual Category page availability and plan controls | One native category pilot meets responsive/branding/filter/SEO requirements before reuse |
+| C-01/C-02 | A-01/A-02, complete real exports, supported pathway | Wix-confirmed eligibility; complete ID/variant/mapping comparisons; no unexplained differences; owner approval before action |
+| D-01/D-02 | Locate Lab repo/workbook, inspect actual contracts | Existing features/IDs/parents preserved; any adapter reviewed and tested; no live Lab deployment |
+| E-01/E-02 | Public and dashboard/search URL sources, target route decisions | Inventory reconciled across sources; approved mapping has no loops/chains; HTTP and canonical targets validated |
+| F-01/F-02 | Tools, trusted browser, real manifests, isolated commerce context | Required QA matrix passes with real counts/results; skip/unrun/fail remain distinct; no real transactions |
+| R-01 | Review and relevant passing checks, current main | Draft PR references evidence and limitations, preserves main policies, modifies only feature branch |
+| L-01 | Prior gates, approved cutover/recovery plan | Explicit owner approval and Work launch coordination; no autonomous production publishing |
+
 ## Work's dashboard evidence checklist
 
 1. Confirm supplied site ID and actual editor/Stores catalogue versions. Capture available
@@ -46,7 +63,8 @@ catalogue migration or payment occurred.
 
 Environment network draft adds only `www.lesalondieppe.com`, `lesalondieppe.com`,
 `dev.wix.com`, `support.wix.com`, `static.wixstatic.com`, `static.parastorage.com`,
-`siteassets.parastorage.com`; package-manager/GitHub presets remain preserved.
+`siteassets.parastorage.com`, `api.github.com` (for the authorized draft PR);
+package-manager/GitHub presets remain preserved.
 Tested complete `install_script` and toolkit `start_skill` were saved. There is no app
 server to start; retained dependencies and synthetic tests are distinct from live Wix QA.
 Review and save the changes in environment settings, then publish the prepared cloud
