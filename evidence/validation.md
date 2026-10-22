@@ -17,10 +17,17 @@
 | Authenticated Wix/version and Catalogue Lab | Unrun: access/source/export unavailable | No compatibility or ID-preservation success claimed |
 | Cart/checkout, performance, accessibility, real redirects | Unrun | Planned gates; no transactions or production changes |
 | Code review | Two read-only specialist reviews; concrete findings fixed and regression tests passed | Final comparator review found no remaining critical issue within limited normalized contract |
-| Configuration persistence | Saved confirmed, requires publication | Install script, agent startup instructions and seven exact network domains; presets preserved |
+| Configuration persistence | Saved confirmed, requires publication | Install script, agent startup instructions and eight exact network domains; presets preserved |
 
 The install script was executed in its documented directory and then saved unchanged.
 No service is required for this toolkit. Synthetic tests require no network. Live HTTP
 access now succeeds; live browser trust remains a separate unresolved setup requirement.
 The environment supports toolkit development, but full migration environment readiness,
 cloud publication and fresh-task restoration are not claimed.
+
+The feature branch was pushed to GitHub, and main's engineering-boundary README was
+integrated without modifying main. Runtime tool/test code is unchanged from the validated
+commit. Draft PR creation failed because the current egress proxy refused api.github.com
+(CONNECT 403); both unauthenticated root and authenticated repository read probes also
+failed at the proxy. Git push success does not establish API access. The domain is saved
+in the environment draft, and docs/proposed-pr.md retains the intended description.

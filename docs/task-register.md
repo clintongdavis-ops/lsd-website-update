@@ -19,7 +19,7 @@ catalogue migration or payment occurred.
 | E-02 | Redirect plan / Codex | Validator ready; actual mapping unprepared | Build evidence-backed old/new map after complete URL inventory and route decision; no redirects activated |
 | F-01 | Automated tools / Codex | Fixture tests passed | Unit and synthetic desktop/mobile browser coverage; see validation evidence |
 | F-02 | Site QA / Codex + Work | HTTP sample passed; live browser blocked | Chromium certificate trust approval; actual manifests and isolated commerce context required; no orders/payments |
-| R-01 | Review/staging / Codex | Local review and branch | Review fixes tested; feature branch pushed; current main README boundaries preserved during integration |
+| R-01 | Review/staging / Codex | Reviewed and pushed; PR API blocked | Main README boundaries preserved; api.github.com CONNECT 403 blocks PR; exact description in docs/proposed-pr.md |
 | L-01 | Production launch / Work + owner | Not authorized | Owner approval of concrete migration, redirect and launch plan after all gates pass |
 
 Codex claims the `tools/`, `tests/`, technical documentation and evidence components for
