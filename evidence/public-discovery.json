@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-22T03:22:59.122377+00:00",
+  "source": "https://www.lesalondieppe.com/sitemap.xml",
+  "sitemaps": [
+    "https://www.lesalondieppe.com/blog-categories-sitemap.xml",
+    "https://www.lesalondieppe.com/blog-posts-sitemap.xml",
+    "https://www.lesalondieppe.com/dynamic-collections_p_5cb5a6c8_41f4_4e91_bd30_259fd2c6feb2_0_500-sitemap.xml",
+    "https://www.lesalondieppe.com/dynamic-copy-of-collections_p_d53a41a3_7cf1_4061_be05_5479a40d3838_0_500-sitemap.xml",
+    "https://www.lesalondieppe.com/dynamic-items_p_26cfd4b6_debf_44d0_bb92_0f4d460452f0_0_5000-sitemap.xml",
+    "https://www.lesalondieppe.com/dynamic-news_p_acfd17fd_771a_4b1b_a6b0_5383a46b062d_0_5000-sitemap.xml",
+    "https://www.lesalondieppe.com/dynamic-promo-text-landing-pages_p_6ccd11c0_6a4a_4dea_9f6f_39b1ff40fb33_0_5000-sitemap.xml",
+    "https://www.lesalondieppe.com/dynamic-salonspaservices_p_600f0854_b4fd_49f7_8236_16c67930b709_0_5000-sitemap.xml",
+    "https://www.lesalondieppe.com/pages-sitemap.xml",
+    "https://www.lesalondieppe.com/sitemap.xml",
+    "https://www.lesalondieppe.com/store-products-sitemap.xml"
+  ],
+  "unique_urls": 1434,
+  "sitemap_traversal_complete": true,
+  "truncated": false,
+  "errors": [],
+  "product_page_urls": 1020,
+  "collections_urls": 147,
+  "copy_collections_urls": 147,
+  "aghair_html_sha256": "a0b8e2c49c5734b4eac58ee0a698acbdec84d0ade2ceb819cab2f500c001a5b2",
+  "url_csv_sha256": "d4fa5003f00284bf52feed84eda4a5ebe8ff69a3ba953d349deabe60d410df7a",
+  "scope": "Published sitemap URLs; not authoritative product/category counts or all-source site inventory"
+}
