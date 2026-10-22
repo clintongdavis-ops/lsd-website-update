@@ -35,6 +35,8 @@ commit. Initial draft PR creation failed because the egress proxy refused api.gi
 failed at the proxy. Git push success does not establish API access. The domain is saved
 in the environment draft; subsequent authenticated repository API reads now succeed.
 docs/proposed-pr.md retains the current intended description.
+Draft PR #1 was subsequently created and attached to this task:
+https://github.com/clintongdavis-ops/lsd-website-update/pull/1. It is unmerged.
 
 The live inspector received a read-only review. Result freshness, unique screenshot
 directories, WebSocket blocking and product-destination link precision were corrected

@@ -19,7 +19,7 @@ catalogue migration or payment occurred.
 | E-02 | Redirect plan / Codex | Validator ready; actual mapping unprepared | Build evidence-backed old/new map after complete URL inventory and route decision; no redirects activated |
 | F-01 | Automated tools / Codex | Fixture tests passed | Unit and synthetic desktop/mobile browser coverage; see validation evidence |
 | F-02 | Site QA / Codex + Work | Desktop/mobile baseline completed; review findings | 24 products each, no overflow, keyboard product-link focus reached, no H1 observed; complete commerce acceptance still requires isolated context |
-| R-01 | Review/staging / Codex | Reviewed; GitHub API access restored | Main README boundaries preserved; draft PR prepared from docs/proposed-pr.md |
+| R-01 | Review/staging / Codex | Reviewed; draft PR opened | [PR #1](https://github.com/clintongdavis-ops/lsd-website-update/pull/1); main README boundaries preserved; no merge or production publication |
 | L-01 | Production launch / Work + owner | Not authorized | Owner approval of concrete migration, redirect and launch plan after all gates pass |
 
 Codex claims the `tools/`, `tests/`, technical documentation and evidence components for
