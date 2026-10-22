@@ -1,67 +1,43 @@
-# LSD migration engineering
+# Le Salon Dieppe website modernization
 
-Technical foundation for Le Salon Dieppe / LSD Beauty. No production writer, publisher,
-catalogue migrator, or payment/order automation is included.
+Engineering workspace for the Wix Studio migration. The existing Wix business backend remains the commerce system of record; the authoritative catalogue remains in its existing catalogue workflow.
 
-## Local setup
+## Engineering boundaries
 
-Use the existing isolated cloud checkout; do not create another worktree for routine startup.
-Node 24 (tested 24.19.0), npm, Python 3.12+, and Chromium are required. Chromium is already
-installed in this cloud image. Set `CHROMIUM_PATH` if a different verified installation is used.
+- Preserve product and variant identities, inventory, prices, SKUs, barcodes and image associations.
+- Separate Studio design work, Category Page migration and Catalog V3 assessment.
+- Do not publish, change paid plans, migrate irreversibly, delete production data, import catalogues or apply redirects without owner approval.
+- Prefer native Wix Stores functionality before CMS or custom commerce code.
+- Never commit credentials, customer data, catalogue exports or private business registers to this public repository.
 
-```sh
-cd /workspace/lsd-website-update
-npm ci --cache /tmp/lsd-npm-cache --no-audit --no-fund
-npm test
-```
+## Work coordination
 
-There is no application server: this repository began empty and is an engineering toolkit,
-not the existing Wix site or Catalogue Lab source. Tests exercise synthetic data and a
-synthetic browser page. Passing them validates the tools, not the production website.
+Work owns editor and browser configuration. Codex owns code review, API compatibility, read-only preservation comparisons and technical QA. Claim a task and component before editing; avoid simultaneous changes. Each task must record owner, status, dependencies, deliverable and acceptance criteria.
 
-## Read-only discovery and validation
+## Acceptance gates
 
-```sh
-mkdir -p artifacts
-python3 tools/audit.py inventory https://www.lesalondieppe.com > artifacts/sitemap.json
-python3 tools/audit.py page https://www.lesalondieppe.com/shop-aghair > artifacts/aghair.json
-python3 tools/audit.py links https://www.lesalondieppe.com/shop-aghair > artifacts/aghair-links.json
-python3 tools/audit.py redirects path/to/proposed-redirects.csv
-python3 tools/catalogue.py path/to/normalized-before.json path/to/normalized-after.json
-```
+1. Confirm a real unpublished Studio branch and app parity in the editor.
+2. Capture the existing page, integration and code inventories.
+3. Verify the actual native category functionality available to this site.
+4. Build and approve one category pilot before repeating work.
+5. Test responsive navigation, product variants, cart, booking links, SEO and languages.
+6. Prepare an explicit cutover and recovery plan before owner review.
 
-Exit status: 0 = check passed, 1 = differences/incomplete audit, 2 = invalid input or request
-failure. Preserve command exit codes. Do not treat an empty, blocked, or truncated inventory
-as complete. Sitemap coverage excludes unlisted, hidden and orphan URLs. The page command
-reports linked URLs; `links` checks their HTTP destinations within the specified limit. It reads server HTML, not a
-rendered Wix page. Cross-origin redirects/entries need separate review and are refused.
-Redirect validation checks the proposed CSV only; it does not activate or verify live redirects.
+No deployment pipeline or production mutation is configured by this README.
 
-Private exports and results belong in ignored `artifacts/` or an approved secure store.
-Do not commit customer data, secrets, full environment dumps or proprietary raw exports.
-See [normalized export contract](docs/catalogue-contract.md) before using the comparator.
+## Technical toolkit and current evidence
 
-## Browser QA
+The read-only engineering foundation is on the `engineering/wix-migration-foundation` branch.
+No production writer, deployment, catalogue migrator, order or payment automation is included.
 
-`npm run test:browser` runs desktop/mobile harness tests with intercepted synthetic HTML.
-For real read-only category checks, create a JSON manifest outside tracked source with all
-fields from `tests/browser/category.spec.cjs`'s fixture, using verified URLs, expectations,
-and inspected selectors. Run:
+- [Setup and toolkit commands](docs/toolkit.md)
+- [Architecture and category strategy](docs/architecture.md)
+- [Verified official Wix findings](docs/official-findings.md)
+- [Catalogue preservation contract](docs/catalogue-contract.md)
+- [Technical task register and Work handoff](docs/task-register.md)
+- [QA and SEO plan](docs/qa-plan.md)
+- [Validation results](evidence/validation.md)
 
-```sh
-LSD_QA_MANIFEST=/absolute/path/to/manifest.json npm run test:browser
-```
-
-The browser blocks non-GET/HEAD requests. Wix may need POST queries to render; diagnose
-any resulting failure rather than claiming the site is broken or enabling writes broadly.
-Live Chromium currently fails platform-proxy certificate trust. Adding the platform CA to
-its persistent user trust store was rejected by automatic approval review; explicit owner
-approval is pending. TLS verification remains enabled. HTTP discovery works with the
-platform-provided trusted system bundle; synthetic Chromium tests work without networking.
-
-No add-to-cart, checkout, sorting/filter correctness, payment, performance or full accessibility
-validation is claimed by this smoke suite. See the [QA plan](docs/qa-plan.md) for those gates.
-
-Start with [architecture](docs/architecture.md), [evidence](evidence/discovery.md),
-[task register and Work handoff](docs/task-register.md). Production publication and irreversible
-catalogue changes require owner approval of a concrete plan.
+Only public sitemap/HTTP observations and synthetic fixtures are committed.
+Private source exports, normalized catalogue snapshots and runtime results belong in ignored
+`artifacts/` or an approved secure store, subject to the engineering boundaries above.

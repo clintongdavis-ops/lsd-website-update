@@ -2,7 +2,8 @@
 
 Prepared in the local repository. This is the shared artifact for a future handoff;
 no message has been sent to the separate ChatGPT Work project or Wix administrator.
-No remote push, deployment, production update, catalogue migration or payment occurred.
+The engineering feature branch is backed up on GitHub. No deployment, production update,
+catalogue migration or payment occurred.
 
 | ID | Workstream / owner | State | Deliverable / next evidence |
 |---|---|---|---|
@@ -18,7 +19,7 @@ No remote push, deployment, production update, catalogue migration or payment oc
 | E-02 | Redirect plan / Codex | Validator ready; actual mapping unprepared | Build evidence-backed old/new map after complete URL inventory and route decision; no redirects activated |
 | F-01 | Automated tools / Codex | Fixture tests passed | Unit and synthetic desktop/mobile browser coverage; see validation evidence |
 | F-02 | Site QA / Codex + Work | HTTP sample passed; live browser blocked | Chromium certificate trust approval; actual manifests and isolated commerce context required; no orders/payments |
-| R-01 | Review/staging / Codex | Local review and branch | Review fixes tested; local engineering branch; no remote main ref was returned at baseline |
+| R-01 | Review/staging / Codex | Local review and branch | Review fixes tested; feature branch pushed; current main README boundaries preserved during integration |
 | L-01 | Production launch / Work + owner | Not authorized | Owner approval of concrete migration, redirect and launch plan after all gates pass |
 
 ## Work's dashboard evidence checklist
@@ -68,7 +69,8 @@ or have Work supply read-only dashboard evidence. Do not send passwords/tokens i
 This is not migration or launch readiness. The owner must approve a concrete plan before
 irreversible catalogue migration, bulk live updates, production redirects or publishing.
 
-Local code is retained on `engineering/wix-migration-foundation`. A normal pull request
-needs a remote base branch; baseline remote probes returned no main/HEAD ref. No protected
-branch was created or pushed. A cloud draft save is not a Git push, publication or proof
-that a fresh task restores local-only commits; that restoration remains unverified.
+Code is retained on `engineering/wix-migration-foundation` and backed up on GitHub. Initial
+remote probes returned no refs; a later probe found main and its engineering-boundary README.
+That README is preserved, with toolkit details moved to docs/toolkit.md. No protected branch
+was modified or pushed. A cloud draft save is separate from Git publication, environment
+publication and fresh-task restoration; the latter two remain unverified.
