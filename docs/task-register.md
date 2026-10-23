@@ -10,15 +10,17 @@ catalogue migration or payment occurred.
 | ENV-01 | Cloud setup / Codex | Toolkit and live browser access verified | Frozen installation; existing platform CA verified; approved access to Chromium NSS database; reusable instructions saved |
 | A-01 | Technical discovery / Work + Codex | Blocked on dashboard/source access | Record editor/catalogue versions, complete product/category counts, apps, Velo imports/scripts and dependency inventory |
 | A-02 | Current official research / Codex | Completed for initial architecture | Exact official sources and field correspondences in official-findings.md; site eligibility still unknown |
-| B-01 | Category architecture / Codex + Work | Provisional | Native shared category page preferred; validate AG Hair and target Studio controls against architecture acceptance gates |
+| B-01 | Category architecture / Codex + Work | Pilot specification prepared | Native shared category page preferred; docs/category-pilot.md specifies bindings, responsive controls and release gates; editor implementation pending |
 | C-01 | Catalog V3 assessment / Work + Codex | Existing-site availability warning; eligibility unknown | Official request article says migration unavailable but mentions banner; require dashboard/Wix support confirmation, ID guarantees and forward repair plan |
 | C-02 | Preservation tooling / Codex | Implemented and fixture-tested | Strict normalized snapshot comparison; needs actual schemas, exporter and real baseline |
-| D-01 | Catalogue Lab / Work + owner | Source location unknown | Locate original app/repository and six-tab workbook through existing project records; owner need not know Git details |
+| D-01 | Catalogue Lab / Work + owner | Sites app and historical source-task locators identified | Current cloud has no Sites export/filesystem access; private backup handoff prepared; actual source/workbook contracts remain unverified |
 | D-02 | Catalogue Lab adapters / Codex | Deferred until source found | Inspect existing code/contracts first; preserve features/IDs; isolate any justified adapter change |
 | E-01 | SEO inventory / Codex + Work | Public sitemap and AG Hair HTTP checks complete | 1,434 URLs, 1,020 product-page URLs, 11 sitemap documents, 40/40 AG Hair internal destinations 200; supplement with dashboard/search sources |
-| E-02 | Redirect plan / Codex | Validator ready; actual mapping unprepared | Build evidence-backed old/new map after complete URL inventory and route decision; no redirects activated |
+| E-02 | Redirect plan / Codex | 147 route-pair review candidates prepared | Four paired samples share CMS source and generic metadata; targets remain unapproved; see docs/collection-route-review.md |
 | F-01 | Automated tools / Codex | Fixture tests passed | Unit and synthetic desktop/mobile browser coverage; see validation evidence |
 | F-02 | Site QA / Codex + Work | Desktop/mobile baseline completed; review findings | 24 products each, no overflow, keyboard product-link focus reached, no H1 observed; complete commerce acceptance still requires isolated context |
+| F-03 | Accessibility / Codex + Work | Automated baseline completed; remediation review pending | axe 4.14.0: desktop 5 violated/3 incomplete rule groups; mobile 4/2; no conformance claim |
+| BK-01 | All-app source backups / Codex + owner | Preference recorded; source backup pending | AGENTS.md and docs/backup-policy.md carry all-web-app requirement; no current Sites inventory or recoverable Lab source export available |
 | R-01 | Review/staging / Codex | Reviewed; draft PR opened | [PR #1](https://github.com/clintongdavis-ops/lsd-website-update/pull/1); main README boundaries preserved; no merge or production publication |
 | L-01 | Production launch / Work + owner | Not authorized | Owner approval of concrete migration, redirect and launch plan after all gates pass |
 
@@ -34,8 +36,9 @@ is claimed. Coordinate new claims here before overlapping edits.
 | B-01 | A-01, actual Category page availability and plan controls | One native category pilot meets responsive/branding/filter/SEO requirements before reuse |
 | C-01/C-02 | A-01/A-02, complete real exports, supported pathway | Wix-confirmed eligibility; complete ID/variant/mapping comparisons; no unexplained differences; owner approval before action |
 | D-01/D-02 | Locate Lab repo/workbook, inspect actual contracts | Existing features/IDs/parents preserved; any adapter reviewed and tested; no live Lab deployment |
+| BK-01 | Actual complete app source, current Sites inventory, private GitHub destination | Source manifest and clean-fetch verification match; source/build/operational restore outcomes separate; no deployment |
 | E-01/E-02 | Public and dashboard/search URL sources, target route decisions | Inventory reconciled across sources; approved mapping has no loops/chains; HTTP and canonical targets validated |
-| F-01/F-02 | Tools, trusted browser, real manifests, isolated commerce context | Required QA matrix passes with real counts/results; skip/unrun/fail remain distinct; no real transactions |
+| F-01/F-02/F-03 | Tools, trusted browser, real manifests, isolated commerce context | Required QA matrix passes with real counts/results; automated violations/manual checks reviewed; skip/unrun/fail distinct; no real transactions |
 | R-01 | Review and relevant passing checks, current main | Draft PR references evidence and limitations, preserves main policies, modifies only feature branch |
 | L-01 | Prior gates, approved cutover/recovery plan | Explicit owner approval and Work launch coordination; no autonomous production publishing |
 
@@ -64,6 +67,9 @@ is claimed. Coordinate new claims here before overlapping edits.
 Environment network draft adds only `www.lesalondieppe.com`, `lesalondieppe.com`,
 `dev.wix.com`, `support.wix.com`, `static.wixstatic.com`, `static.parastorage.com`,
 `siteassets.parastorage.com`, `api.github.com` (for the authorized draft PR);
+`lsd-catalogue-lab.shodocta.chatgpt.site` was subsequently added for owner-supplied Lab
+discovery; its public domain remains blocked by the current proxy. Sites source tools are
+not available in this cloud session. The app URL alone cannot provide a backend backup.
 package-manager/GitHub presets remain preserved.
 Tested complete `install_script` and toolkit `start_skill` were saved. There is no app
 server to start; retained dependencies and synthetic tests are distinct from live Wix QA.
@@ -86,6 +92,9 @@ or have Work supply read-only dashboard evidence. Do not send passwords/tokens i
 
 This is not migration or launch readiness. The owner must approve a concrete plan before
 irreversible catalogue migration, bulk live updates, production redirects or publishing.
+The owner separately authorized GitHub backups for every web app. That permission does
+not authorize changing live apps/data. A private source handoff is kept outside this public
+repository; no complete Lab source backup or all-app inventory is claimed.
 
 Code is retained on `engineering/wix-migration-foundation` and backed up on GitHub. Initial
 remote probes returned no refs; a later probe found main and its engineering-boundary README.

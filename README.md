@@ -36,6 +36,10 @@ No production writer, deployment, catalogue migrator, order or payment automatio
 - [Catalogue preservation contract](docs/catalogue-contract.md)
 - [Technical task register and Work handoff](docs/task-register.md)
 - [QA and SEO plan](docs/qa-plan.md)
+- [Native category pilot](docs/category-pilot.md)
+- [Accessibility baseline findings](docs/accessibility-findings.md)
+- [Parallel collection-route review](docs/collection-route-review.md)
+- [Web app backup requirement](docs/backup-policy.md)
 - [Validation results](evidence/validation.md)
 
 Only public sitemap/HTTP observations and synthetic fixtures are committed.

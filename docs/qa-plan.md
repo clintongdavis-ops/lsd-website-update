@@ -50,7 +50,7 @@ not simply their presence. Fetch linked destinations before claiming broken-link
 | Checkout | Validate native checkout handoff and configured delivery/tax/discount behavior | Verified Wix-supported test mode and authorized test data | Unrun; never place real orders or charge |
 | SEO/redirects | Old→target 301 chain, target 200, intended canonical/hreflang/sitemap | Approved mapping and staged/public deployment | Proposal validator implemented; HTTP redirects unrun |
 | Performance | Repeated cold/warm measurements, median results and variance | Same Chromium/device/network profile; baseline and target | Unrun; no performance claim |
-| Accessibility | Automated audit plus keyboard, focus, screen reader and contrast review | Actual rendered target, documented audit tool/version | Unrun; focus smoke is not conformance |
+| Accessibility | Automated audit plus keyboard, focus, screen reader and contrast review | Actual rendered target, documented audit tool/version | axe 4.14.0 baseline complete: desktop 5 violated/3 incomplete groups; mobile 4/2; manual review/conformance still unverified |
 
 For every run record commit, test target, time, browser/version, viewport, network profile,
 fixture vs real data, pass/fail/skip counts and artifacts. No numeric performance target or

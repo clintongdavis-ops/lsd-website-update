@@ -2,16 +2,23 @@
 const { chromium, devices } = require('@playwright/test');
 const fs = require('node:fs');
 const url = 'https://www.lesalondieppe.com/shop-aghair';
+const args = process.argv.slice(2);
+const accessibility = args.includes('--accessibility');
+if (args.some(arg => arg !== '--accessibility')) {
+  console.error('Usage: node tools/inspect-category.cjs [--accessibility]');
+  process.exit(2);
+}
 
 async function main() {
   fs.mkdirSync('artifacts', { recursive: true });
   const runId = new Date().toISOString();
   const screenshotDirectory = `artifacts/category-${runId.replaceAll(':', '-')}`;
+  const reportPath = accessibility ? 'artifacts/accessibility-discovery.json' : 'artifacts/live-browser-discovery.json';
   fs.mkdirSync(screenshotDirectory);
   const report = { runId, observedAt: runId, url, browserVersion: null, complete: false,
     scope: 'Public unauthenticated observations; non-GET/HEAD HTTP and WebSockets blocked; not commerce, performance or accessibility acceptance',
     profiles: [] };
-  const save = () => fs.writeFileSync('artifacts/live-browser-discovery.json', JSON.stringify(report, null, 2) + '\n');
+  const save = () => fs.writeFileSync(reportPath, JSON.stringify(report, null, 2) + '\n');
   save(); // Invalidate previous success even if launch or a later profile fails.
   let browser;
   try {
@@ -58,6 +65,27 @@ async function main() {
         if (geometry.hasHorizontalOverflow) issues.push('horizontal-overflow');
         if (!productFocused) issues.push('product-link-not-focused-within-100-tabs');
         if (await page.locator('h1').count() === 0) issues.push('no-h1-observed');
+        let accessibilityResult;
+        if (accessibility) {
+          const { default: AxeBuilder } = require('@axe-core/playwright');
+          const tags = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
+          const analysis = await new AxeBuilder({ page }).withTags(tags).analyze();
+          const summarize = rule => ({
+            id: rule.id, impact: rule.impact, description: rule.description, help: rule.help,
+            helpUrl: rule.helpUrl, tags: rule.tags, affectedNodes: rule.nodes.length,
+            targets: rule.nodes.map(node => node.target),
+          });
+          accessibilityResult = {
+            engine: analysis.testEngine, tags,
+            scope: 'Automated rules on currently rendered content; manual checks and full conformance remain unverified',
+            violations: analysis.violations.map(summarize),
+            incomplete: analysis.incomplete.map(summarize),
+            passedRuleCount: analysis.passes.length,
+            inapplicableRuleCount: analysis.inapplicable.length,
+          };
+          if (analysis.violations.length) issues.push('automated-accessibility-violations');
+          if (analysis.incomplete.length) issues.push('accessibility-manual-review-required');
+        }
         const screenshot = `${screenshotDirectory}/${profile.name}.png`;
         await page.screenshot({ path: screenshot });
         report.profiles.push({ profile: profile.name, viewport: profile.options.viewport,
@@ -65,6 +93,7 @@ async function main() {
           title: await page.title(), headings: await page.locator('h1,h2,h3').allTextContents(),
           renderedProducts: await products.count(), firstProductVisible: await products.first().isVisible(),
           productFocusedWithin100Tabs: productFocused, geometry, issues,
+          ...(accessibilityResult ? { accessibility: accessibilityResult } : {}),
           blockedNonReadRequests, blockedWebSockets, failedHosts: [...failedHosts].sort(), screenshot });
         save();
       } finally { await context.close(); }

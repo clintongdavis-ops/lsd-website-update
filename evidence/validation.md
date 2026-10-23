@@ -44,3 +44,22 @@ and exercised by the current run. The Pixel 7 profile uses its recorded Android 
 Chromium engine version and layout width are recorded separately, not presented as
 a physical-device test. Blocked requests, including some static assets, limit rendering
 acceptance; the baseline is an observation, not a production quality certificate.
+
+## October 23 continuation
+
+- New pinned dependency `@axe-core/playwright` 4.14.0 installed with verification intact;
+  frozen `npm ci` and the existing 24 unit / four synthetic browser tests passed again.
+- `npm run audit:accessibility` completed both profiles and returned 1 for findings: desktop
+  five violated/three incomplete rule groups; mobile four/two. Missing H1 remains a separate
+  observation. `evidence/accessibility-baseline.json` is the current run's receipt.
+- The accessibility error path was exercised with a deliberately missing browser executable
+  in a temporary directory: exit 2, current error recorded, stale success replaced.
+- Read-only review found no blocking issue in flag handling, scan invocation, issue/exit
+  handling or freshness. The report intentionally retains selectors/counts rather than raw HTML.
+- Nine public HTTP pages were sampled for paired collection templates and AG Hair; metadata
+  and hashes are retained in `evidence/collection-route-samples.json`. A matched-suffix review
+  table contains 147 pairs, zero unmatched routes; this does not prove equivalent content.
+- The owner supplied the actual Sites app. Repository discovery found two plausible empty
+  repositories; neither is a backup. Historical source-task locators were identified but
+  current source export and backend filesystem access are unavailable in this session.
+  No app source or private business data was copied into this public repository.

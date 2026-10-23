@@ -3,7 +3,9 @@ Prepare a read-only engineering foundation for the Wix Studio migration while ke
 Includes:
 - Current official Wix findings, field-level V1/V3 correspondence, preservation/contingency plan and a technical Work task register.
 - Public sitemap inventory of 1,434 URLs, including 1,020 product-page URLs; all 40 internal destinations discovered in AG Hair server HTML returned 200. These are not authoritative catalogue counts or a full site crawl.
-- Read-only sitemap, SEO, link and redirect-proposal checks; a strict normalized catalogue comparator; desktop/mobile browser smoke harness.
+- Read-only sitemap, SEO, link and redirect-proposal checks; a strict normalized catalogue comparator; desktop/mobile browser inspector and pinned axe-core accessibility mode.
+- Review candidates for 147 parallel collection-route pairs. Four sampled pairs declare the same Stores/Collections source and generic/self-canonical metadata; targets need dashboard/content/traffic review before redirects.
+- A native AG Hair category pilot specification and the owner's standing GitHub backup requirement for every web app, carried in AGENTS.md and docs/backup-policy.md. Sites app and historical source-task locators are identified; current source export/filesystem access is unavailable. No complete Catalogue Lab backup is claimed.
 
 Validation: exact reusable install script (`npm ci` and `npm test`) completed; 24 unit tests and four synthetic Chromium tests passed. Comparator CLI exit statuses 0/1/2 and redirect proposal CLI were exercised. Read-only specialist reviews found and corrected typing, incomplete-variant, header-SEO and request-blocking gaps. Main's engineering-boundary README is preserved; toolkit commands live in docs/toolkit.md.
 
@@ -11,4 +13,6 @@ Release blockers remain explicit: authenticated Wix/version data and Catalogue L
 
 After explicit owner approval of CA trust work, fingerprint checks verified the platform CA was already trusted. Live Chromium works with normal NSS database access outside the filesystem sandbox, without a TLS bypass. A repeatable inspector now completes real desktop and Pixel 7 mobile baselines: each returned 200 and displayed 24 product items, with product-link keyboard focus and no observed horizontal overflow. Neither profile exposed an H1; the inspector returns 1 for that review finding. Non-GET/HEAD HTTP, WebSockets and service workers are blocked, so these observations are not complete commerce or rendering acceptance.
 
-Live commerce, performance/accessibility and redirect checks remain unrun. No production site/catalogue updates, deployments, subscription changes, orders or payments occurred. This draft is for technical review, not migration or launch approval.
+The October 23 accessibility run completed with exit 1 for review findings: desktop five violated/three incomplete rule groups, mobile four/two. These are rule groups, not unique defects or a conformance score. Error-report freshness was exercised for the new mode with a missing executable. Frozen npm installation, 24 unit tests and four synthetic browser tests passed again; read-only specialist review found no blocking issue in the new mode.
+
+Live commerce, performance, full accessibility and redirect acceptance remain unrun. No production site/catalogue updates, deployments, subscription changes, orders or payments occurred. This draft is for technical review, not migration or launch approval. Main's engineering boundaries and private-data exclusions are preserved.

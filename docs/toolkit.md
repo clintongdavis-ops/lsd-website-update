@@ -68,6 +68,11 @@ in a unique run directory. Exit 0 means no configured observations require revie
 review observations (such as no H1), and 2 means an execution failure. Neither 0 nor 1 proves
 commerce behavior. Missing/blocked requests can affect rendering and must remain reported.
 
+`npm run audit:accessibility` adds axe-core checks for configured WCAG A/AA tags and writes
+`artifacts/accessibility-discovery.json`. It uses the same authorized NSS access and request
+restrictions. Violations and incomplete/manual-review rules keep exit status 1. See
+[accessibility findings](accessibility-findings.md); automated rules do not establish conformance.
+
 No add-to-cart, checkout, sorting/filter correctness, payment, performance or full accessibility
 validation is claimed by this smoke suite. See the [QA plan](qa-plan.md) for those gates.
 
