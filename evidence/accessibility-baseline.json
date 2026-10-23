@@ -1,0 +1,717 @@
+{
+  "runId": "2026-10-23T13:25:52.330Z",
+  "observedAt": "2026-10-23T13:25:52.330Z",
+  "url": "https://www.lesalondieppe.com/shop-aghair",
+  "browserVersion": "154.0.8037.57",
+  "complete": true,
+  "scope": "Public unauthenticated observations; non-GET/HEAD HTTP and WebSockets blocked; not commerce, performance or accessibility acceptance",
+  "profiles": [
+    {
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "status": 200,
+      "title": "Shop AG Hair Care Online | LSD Beauty (Le Salon Dieppe)",
+      "headings": [
+        "Filter by"
+      ],
+      "renderedProducts": 24,
+      "firstProductVisible": true,
+      "productFocusedWithin100Tabs": true,
+      "geometry": {
+        "innerWidth": 1440,
+        "scrollWidth": 1440,
+        "hasHorizontalOverflow": false
+      },
+      "issues": [
+        "no-h1-observed",
+        "automated-accessibility-violations",
+        "accessibility-manual-review-required"
+      ],
+      "accessibility": {
+        "engine": {
+          "name": "axe-core",
+          "version": "4.14.0"
+        },
+        "tags": [
+          "wcag2a",
+          "wcag2aa",
+          "wcag21a",
+          "wcag21aa",
+          "wcag22aa"
+        ],
+        "scope": "Automated rules on currently rendered content; manual checks and full conformance remain unverified",
+        "violations": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+            "tags": [
+              "cat.name-role-value",
+              "wcag2a",
+              "wcag412",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT6.a",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-11.9.1"
+            ],
+            "affectedNodes": 1,
+            "targets": [
+              [
+                "#label-for-id_-805"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "affectedNodes": 17,
+            "targets": [
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(3) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-boost-conditioner-12oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(5) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(6) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-color-savour-shampoo-10oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-conditioning-mist-12oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-curl-revive-shampoo-10oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-details-defining-cream-6oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(14) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-firewall\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(16) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(17) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"ag-hard-jel-extra-firm-6oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "div[data-slug=\"litre-pumps\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(20) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(21) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(24) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze[data-hook=\"RibbonDataHook.RibbonOnImage\"]"
+              ]
+            ]
+          },
+          {
+            "id": "list",
+            "impact": "serious",
+            "description": "Ensure that lists are structured correctly",
+            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=playwright",
+            "tags": [
+              "cat.structure",
+              "wcag2a",
+              "wcag131",
+              "EN-301-549",
+              "EN-9.1.3.1",
+              "RGAAv4",
+              "RGAA-9.3.1"
+            ],
+            "affectedNodes": 1,
+            "targets": [
+              [
+                ".WWubTY"
+              ]
+            ]
+          },
+          {
+            "id": "listitem",
+            "impact": "serious",
+            "description": "Ensure <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=playwright",
+            "tags": [
+              "cat.structure",
+              "wcag2a",
+              "wcag131",
+              "EN-301-549",
+              "EN-9.1.3.1",
+              "RGAAv4",
+              "RGAA-9.3.1"
+            ],
+            "affectedNodes": 24,
+            "targets": [
+              [
+                "li[data-hook=\"filter-type-COLLECTION\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-main\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-1\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-2\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-3\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-4\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-5\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-6\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-7\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-8\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-9\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-10\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-11\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-12\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-13\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-14\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-15\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-16\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-17\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-18\"]"
+              ],
+              [
+                "li[data-hook=\"single-selection-option-19\"]"
+              ],
+              [
+                "li[data-hook=\"filter-type-PRICE \"]"
+              ],
+              [
+                "li[data-hook=\"filter-type-LIST_OPTION\"]"
+              ],
+              [
+                "li[data-hook=\"filter-type-CUSTOM_COLLECTION\"]"
+              ]
+            ]
+          },
+          {
+            "id": "target-size",
+            "impact": "serious",
+            "description": "Ensure touch targets have sufficient size and space",
+            "help": "All touch targets must be 24px large, or leave sufficient space",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+            "tags": [
+              "cat.sensory-and-visual-cues",
+              "wcag22aa",
+              "wcag258",
+              "EN-301-549v4",
+              "EN-9.2.5.8"
+            ],
+            "affectedNodes": 8,
+            "targets": [
+              [
+                "a[data-anchor=\"dataItem-k8aj7jnx\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(9) > .wixui-rich-text__text > a[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(11) > .wixui-rich-text__text:nth-child(1) > a[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(11) > .wixui-rich-text__text:nth-child(3) > a[target=\"_self\"]"
+              ],
+              [
+                "a[target=\"_self\"]:nth-child(10)"
+              ],
+              [
+                "a[target=\"_self\"]:nth-child(12)"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(6) > a[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(8) > a[target=\"_self\"]"
+              ]
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-hidden-focus",
+            "impact": "serious",
+            "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=playwright",
+            "tags": [
+              "cat.name-role-value",
+              "wcag2a",
+              "wcag412",
+              "TTv5",
+              "TT6.a",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "RGAAv4",
+              "RGAA-10.8.1"
+            ],
+            "affectedNodes": 3,
+            "targets": [
+              [
+                "li[data-hook=\"filter-type-PRICE \"] > .rah-static--height-zero.rah-static[aria-hidden=\"true\"]"
+              ],
+              [
+                "li[data-hook=\"filter-type-LIST_OPTION\"] > .rah-static--height-zero.rah-static[aria-hidden=\"true\"]"
+              ],
+              [
+                "li[data-hook=\"filter-type-CUSTOM_COLLECTION\"] > .rah-static--height-zero.rah-static[aria-hidden=\"true\"]"
+              ]
+            ]
+          },
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Ensure ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+            "tags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag412",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "RGAAv4",
+              "RGAA-7.1.1"
+            ],
+            "affectedNodes": 8,
+            "targets": [
+              [
+                "div[data-slug=\"ag-boost-conditioner-12oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(6) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "div[data-slug=\"ag-color-savour-shampoo-10oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "div[data-slug=\"ag-curl-revive-shampoo-10oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(10) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(14) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "div[data-slug=\"ag-balance-shampoo-12oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(24) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "affectedNodes": 2,
+            "targets": [
+              [
+                "#input_comp-kwc62xwd"
+              ],
+              [
+                "#input_comp-kwc62xwi"
+              ]
+            ]
+          }
+        ],
+        "passedRuleCount": 31,
+        "inapplicableRuleCount": 33
+      },
+      "blockedNonReadRequests": 16,
+      "blockedWebSockets": 0,
+      "failedHosts": [
+        "browser.sentry-cdn.com",
+        "frog.wix.com",
+        "panorama.wixapps.net"
+      ],
+      "screenshot": "artifacts/category-2026-10-23T13-25-52.330Z/desktop.png"
+    },
+    {
+      "profile": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Mobile Safari/537.36",
+      "status": 200,
+      "title": "Shop AG Hair Care Online | LSD Beauty (Le Salon Dieppe)",
+      "headings": [
+        "Filter by"
+      ],
+      "renderedProducts": 24,
+      "firstProductVisible": true,
+      "productFocusedWithin100Tabs": true,
+      "geometry": {
+        "innerWidth": 320,
+        "scrollWidth": 320,
+        "hasHorizontalOverflow": false
+      },
+      "issues": [
+        "no-h1-observed",
+        "automated-accessibility-violations",
+        "accessibility-manual-review-required"
+      ],
+      "accessibility": {
+        "engine": {
+          "name": "axe-core",
+          "version": "4.14.0"
+        },
+        "tags": [
+          "wcag2a",
+          "wcag2aa",
+          "wcag21a",
+          "wcag21aa",
+          "wcag22aa"
+        ],
+        "scope": "Automated rules on currently rendered content; manual checks and full conformance remain unverified",
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Ensure ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+            "tags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag412",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "RGAAv4",
+              "RGAA-7.1.1"
+            ],
+            "affectedNodes": 1,
+            "targets": [
+              [
+                "#comp-lii53x7i"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "affectedNodes": 17,
+            "targets": [
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(3) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-boost-conditioner-12oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(5) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(6) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-color-savour-shampoo-10oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-conditioning-mist-12oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-curl-revive-shampoo-10oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-details-defining-cream-6oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(14) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-firewall\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(16) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(17) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"ag-hard-jel-extra-firm-6oz\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "div[data-slug=\"litre-pumps\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(20) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(21) > .ejYUwA.t1Z_7C > .ETPbIy.KJlsir[role=\"group\"] > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(24) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .AJctir.bGFTjD[data-hook=\"product-item-container\"] > .pLiK7U > .MjPCb2 > .MbIdEx > .INg0tB.FbHYze.undefined"
+              ]
+            ]
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "description": "Ensure select element has an accessible name",
+            "help": "Select element must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+            "tags": [
+              "cat.forms",
+              "wcag2a",
+              "wcag412",
+              "section508",
+              "section508.22.n",
+              "TTv5",
+              "TT5.c",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-11.1.1"
+            ],
+            "affectedNodes": 1,
+            "targets": [
+              [
+                "#sortBy"
+              ]
+            ]
+          },
+          {
+            "id": "target-size",
+            "impact": "serious",
+            "description": "Ensure touch targets have sufficient size and space",
+            "help": "All touch targets must be 24px large, or leave sufficient space",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+            "tags": [
+              "cat.sensory-and-visual-cues",
+              "wcag22aa",
+              "wcag258",
+              "EN-301-549v4",
+              "EN-9.2.5.8"
+            ],
+            "affectedNodes": 9,
+            "targets": [
+              [
+                "a[data-anchor=\"dataItem-k8aj7jnx\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(9) > .wixui-rich-text__text > .wixui-rich-text__text[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(11) > .wixui-rich-text__text:nth-child(1) > .wixui-rich-text__text[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(11) > .wixui-rich-text__text:nth-child(3) > .wixui-rich-text__text[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text[target=\"_self\"]:nth-child(10)"
+              ],
+              [
+                ".wixui-rich-text__text[target=\"_self\"]:nth-child(12)"
+              ],
+              [
+                "a[href$=\"www.lesalondieppe.com\"][rel=\"noreferrer noopener\"][target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(6) > .wixui-rich-text__text[target=\"_self\"]"
+              ],
+              [
+                ".wixui-rich-text__text:nth-child(8) > .wixui-rich-text__text[target=\"_self\"]"
+              ]
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Ensure ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+            "tags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag412",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "RGAAv4",
+              "RGAA-7.1.1"
+            ],
+            "affectedNodes": 8,
+            "targets": [
+              [
+                "div[data-slug=\"ag-boost-conditioner-12oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(6) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "div[data-slug=\"ag-color-savour-shampoo-10oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "div[data-slug=\"ag-curl-revive-shampoo-10oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(10) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(14) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "div[data-slug=\"ag-balance-shampoo-12oz\"] > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ],
+              [
+                "li[data-hook=\"product-list-grid-item\"]:nth-child(24) > .ejYUwA.t1Z_7C > .vL5YxX.ETPbIy.KJlsir > .CZ0KIs[data-hook=\"not-image-container\"] > .Jzh04F > .e3HCs3 > div[data-hook=\"product-item-options\"] > div > .sX06Sd[data-hook=\"product-option-wrapper\"] > .RG4yol[data-hook=\"product-option\"] > fieldset > .su_s6JC.OmpB1e[aria-label=\"Size\"]"
+              ]
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "affectedNodes": 4,
+            "targets": [
+              [
+                ".font_9 > .wixui-rich-text__text > .wixui-rich-text__text > .wixui-rich-text__text > .wixui-rich-text__text"
+              ],
+              [
+                "#sortBy"
+              ],
+              [
+                "#input_comp-kwc62xwd"
+              ],
+              [
+                "#input_comp-kwc62xwi"
+              ]
+            ]
+          }
+        ],
+        "passedRuleCount": 32,
+        "inapplicableRuleCount": 31
+      },
+      "blockedNonReadRequests": 17,
+      "blockedWebSockets": 0,
+      "failedHosts": [
+        "browser.sentry-cdn.com",
+        "frog.wix.com",
+        "panorama.wixapps.net",
+        "static.wixstatic.com"
+      ],
+      "screenshot": "artifacts/category-2026-10-23T13-25-52.330Z/mobile.png"
+    }
+  ]
+}

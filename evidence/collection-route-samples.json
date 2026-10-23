@@ -1,0 +1,156 @@
+{
+  "scope": "Public initial HTML samples; browser limitations documented separately",
+  "samples": [
+    {
+      "url": "https://www.lesalondieppe.com/collections/ag-care",
+      "observedAt": "2026-10-23T13:23:14.177428+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/collections/ag-care",
+      "sha256": "b5890bc7e6b7445ca44f703725ef3e01a1f578522fbf8af110ab15489f5630e9",
+      "canonical": [
+        "https://www.lesalondieppe.com/collections/ag-care"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/collections/all-products",
+      "observedAt": "2026-10-23T13:23:16.558486+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/collections/all-products",
+      "sha256": "03630d4529eb9dd3d83a14d6114161e6cc65c7018009432efe88771669588013",
+      "canonical": [
+        "https://www.lesalondieppe.com/collections/all-products"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/collections/milkshake",
+      "observedAt": "2026-10-23T13:23:15.000319+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/collections/milkshake",
+      "sha256": "b8005d71f45811d172470462a401eb22538cdb1a8de8c21e31d6d4fad9077423",
+      "canonical": [
+        "https://www.lesalondieppe.com/collections/milkshake"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/collections/shampoos",
+      "observedAt": "2026-10-23T13:23:16.482012+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/collections/shampoos",
+      "sha256": "d17d95c04b1e5fd3ed36e0826eba3efc35138669af40f01ec8cf0c50127e4c74",
+      "canonical": [
+        "https://www.lesalondieppe.com/collections/shampoos"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/copy-of-collections/ag-care",
+      "observedAt": "2026-10-23T13:23:14.274176+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/copy-of-collections/ag-care",
+      "sha256": "a9890f4a3bc7bd5f85995dc8a134368d49642b44534974b1a03ff7aad0da248d",
+      "canonical": [
+        "https://www.lesalondieppe.com/copy-of-collections/ag-care"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/copy-of-collections/all-products",
+      "observedAt": "2026-10-23T13:23:17.600805+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/copy-of-collections/all-products",
+      "sha256": "90d95cda5402b7249d9b8d76653aa09f72032af4f8e8cd2ada0ce6963e77e7e6",
+      "canonical": [
+        "https://www.lesalondieppe.com/copy-of-collections/all-products"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/copy-of-collections/milkshake",
+      "observedAt": "2026-10-23T13:23:15.247318+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/copy-of-collections/milkshake",
+      "sha256": "16238e87de2e53ddd63659d88982a0d39bb238b63cdefa7a35343301d5789b64",
+      "canonical": [
+        "https://www.lesalondieppe.com/copy-of-collections/milkshake"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/copy-of-collections/shampoos",
+      "observedAt": "2026-10-23T13:23:16.430258+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/copy-of-collections/shampoos",
+      "sha256": "a3c1be90eb6c79117bd3eb6b55748c93bbdbb6eec17d3afde7d26ccf8d541211",
+      "canonical": [
+        "https://www.lesalondieppe.com/copy-of-collections/shampoos"
+      ],
+      "title": "LSD Le Salon Dieppe",
+      "description": [],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [],
+      "distinctProductLinks": 0
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-aghair",
+      "observedAt": "2026-10-23T13:23:15.475720+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lesalondieppe.com/shop-aghair",
+      "sha256": "877ddc606684e4fb8389c6db6be45ab3747f7600bef833e15e97e28d0a616d11",
+      "canonical": [
+        "https://www.lesalondieppe.com/shop-aghair"
+      ],
+      "title": "Shop AG Hair Care Online | LSD Beauty (Le Salon Dieppe)",
+      "description": [
+        "Shop and Buy AG Hair Professional Beauty Products & Sales for Hair Care & Style. Free delivery in Dieppe Moncton Riverivew. Free Shipping over $75...\n"
+      ],
+      "robots": [],
+      "xRobotsTag": [],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Filter by"
+        }
+      ],
+      "distinctProductLinks": 24
+    }
+  ]
+}

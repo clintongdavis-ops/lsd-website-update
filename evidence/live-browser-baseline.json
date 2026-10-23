@@ -1,0 +1,76 @@
+{
+  "runId": "2026-10-22T11:33:18.053Z",
+  "observedAt": "2026-10-22T11:33:18.053Z",
+  "url": "https://www.lesalondieppe.com/shop-aghair",
+  "browserVersion": "154.0.8037.57",
+  "complete": true,
+  "scope": "Public unauthenticated observations; non-GET/HEAD HTTP and WebSockets blocked; not commerce, performance or accessibility acceptance",
+  "profiles": [
+    {
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "status": 200,
+      "title": "Shop AG Hair Care Online | LSD Beauty (Le Salon Dieppe)",
+      "headings": [
+        "Filter by"
+      ],
+      "renderedProducts": 24,
+      "firstProductVisible": true,
+      "productFocusedWithin100Tabs": true,
+      "geometry": {
+        "innerWidth": 1440,
+        "scrollWidth": 1440,
+        "hasHorizontalOverflow": false
+      },
+      "issues": [
+        "no-h1-observed"
+      ],
+      "blockedNonReadRequests": 6,
+      "blockedWebSockets": 0,
+      "failedHosts": [
+        "browser.sentry-cdn.com",
+        "frog.wix.com",
+        "panorama.wixapps.net",
+        "static.wixstatic.com"
+      ],
+      "screenshot": "artifacts/category-2026-10-22T11-33-18.053Z/desktop.png"
+    },
+    {
+      "profile": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Mobile Safari/537.36",
+      "status": 200,
+      "title": "Shop AG Hair Care Online | LSD Beauty (Le Salon Dieppe)",
+      "headings": [
+        "Filter by"
+      ],
+      "renderedProducts": 24,
+      "firstProductVisible": true,
+      "productFocusedWithin100Tabs": true,
+      "geometry": {
+        "innerWidth": 320,
+        "scrollWidth": 320,
+        "hasHorizontalOverflow": false
+      },
+      "issues": [
+        "no-h1-observed"
+      ],
+      "blockedNonReadRequests": 6,
+      "blockedWebSockets": 0,
+      "failedHosts": [
+        "browser.sentry-cdn.com",
+        "frog.wix.com",
+        "panorama.wixapps.net",
+        "static.wixstatic.com"
+      ],
+      "screenshot": "artifacts/category-2026-10-22T11-33-18.053Z/mobile.png"
+    }
+  ]
+}

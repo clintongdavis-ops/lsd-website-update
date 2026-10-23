@@ -1,0 +1,210 @@
+{
+  "source_url": "https://www.lesalondieppe.com/shop-aghair",
+  "discovered_internal_links": 40,
+  "checked": 40,
+  "complete_for_source_html": true,
+  "results": [
+    {
+      "url": "https://www.lesalondieppe.com/aboutus-dieppe-nb",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/aboutus-dieppe-nb"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/brands",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/brands"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/buy-nioxin-hair-care-online-dieppe",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/buy-nioxin-hair-care-online-dieppe"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/careers",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/careers"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/ecosmetics",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/ecosmetics"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/planet",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/planet"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/policies",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/policies"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-balance-shampoo-12oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-balance-shampoo-12oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-beach-bomb-tousled-texture-5-4oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-beach-bomb-tousled-texture-5-4oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-beachy-wave-sea-spray-135-ml",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-beachy-wave-sea-spray-135-ml"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-bigwigg-root-volumizer-10oz-1",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-bigwigg-root-volumizer-10oz-1"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-boost-conditioner-12oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-boost-conditioner-12oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-cloud-air-light-volumizing-mousse-3-6oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-cloud-air-light-volumizing-mousse-3-6oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-color-savour-conditioner-6oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-color-savour-conditioner-6oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-color-savour-shampoo-10oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-color-savour-shampoo-10oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-conditioning-mist-12oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-conditioning-mist-12oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-curl-revive-shampoo-10oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-curl-revive-shampoo-10oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-curl-thrive-conditioner-33-8oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-curl-thrive-conditioner-33-8oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-curl-trigger-150-ml",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-curl-trigger-150-ml"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-deflect-heat-protection-150-ml",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-deflect-heat-protection-150-ml"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-details-defining-cream-6oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-details-defining-cream-6oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-fast-food-leave-on-conditioner-6oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-fast-food-leave-on-conditioner-6oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-firewall",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-firewall"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-frizzproof-finishing-spray-8oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-frizzproof-finishing-spray-8oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-hair-remedy-leave-on-mist-5oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-hair-remedy-leave-on-mist-5oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-hard-jel-extra-firm-6oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-hard-jel-extra-firm-6oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-mousse-gel-firm-retention-10oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-mousse-gel-firm-retention-10oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-nourish-moisture-mask-150-ml",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-nourish-moisture-mask-150-ml"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-peppermint-wash-shampoo-10oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-peppermint-wash-shampoo-10oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/ag-reconstruct-anti-breakage-mask-6oz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/ag-reconstruct-anti-breakage-mask-6oz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/product-page/litre-pumps",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/product-page/litre-pumps"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/salon-services",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-1",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop-1"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-aghair",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop-aghair"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-aghair?page=2",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop-aghair?page=2"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-goldwell",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop-goldwell"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-hempz",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop-hempz"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shop-milkshake",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shop-milkshake"
+    },
+    {
+      "url": "https://www.lesalondieppe.com/shopkms",
+      "status": 200,
+      "final_url": "https://www.lesalondieppe.com/shopkms"
+    }
+  ],
+  "passed": true,
+  "scope": "Server-HTML internal links only; not a site-wide crawl or content-identity test"
+}

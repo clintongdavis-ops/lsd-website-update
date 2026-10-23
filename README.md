@@ -24,3 +24,24 @@ Work owns editor and browser configuration. Codex owns code review, API compatib
 6. Prepare an explicit cutover and recovery plan before owner review.
 
 No deployment pipeline or production mutation is configured by this README.
+
+## Technical toolkit and current evidence
+
+The read-only engineering foundation is on the `engineering/wix-migration-foundation` branch.
+No production writer, deployment, catalogue migrator, order or payment automation is included.
+
+- [Setup and toolkit commands](docs/toolkit.md)
+- [Architecture and category strategy](docs/architecture.md)
+- [Verified official Wix findings](docs/official-findings.md)
+- [Catalogue preservation contract](docs/catalogue-contract.md)
+- [Technical task register and Work handoff](docs/task-register.md)
+- [QA and SEO plan](docs/qa-plan.md)
+- [Native category pilot](docs/category-pilot.md)
+- [Accessibility baseline findings](docs/accessibility-findings.md)
+- [Parallel collection-route review](docs/collection-route-review.md)
+- [Web app backup requirement](docs/backup-policy.md)
+- [Validation results](evidence/validation.md)
+
+Only public sitemap/HTTP observations and synthetic fixtures are committed.
+Private source exports, normalized catalogue snapshots and runtime results belong in ignored
+`artifacts/` or an approved secure store, subject to the engineering boundaries above.
